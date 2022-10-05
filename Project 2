@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+        <style>
+            table {
+                font-family: "Sofia", sans-serif;
+                border: 2px solid black;
+                border-collapse: collapse;
+            }
+
+            td, th {
+                border: 1px solid black;
+            }
+            td:nth-child(even), th:nth-child(even) {
+  background-color: azure;
+}
+
+
+        </style>
+    </head>
+
+    <body>
+        <h2>School Timetable</h2>
+        <table>
+            <tr>
+                <th>&nbsp;</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+                <th>Sunday</th>
+            </tr>
+            <tr>
+                <td>9am-12pm</td>
+                <td style="background-color:#8ff4f4">International Trade & Finanace</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td style="background-color:#8ff4f4">Great Books</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>12pm-3pm</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td style="background-color:#8ff4f4">Introduction to Literature</td>
+                <td style="background-color:#8ff4f4">Organizational Communication</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>3pm-6pm</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td style="background-color:#8ff4f4">Web Design</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>No class</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td style="background-color:#8ff4f4">Senior Project Proposal</td>
+            </tr>
+        </table>
+
+    </body>
+
+</html>
